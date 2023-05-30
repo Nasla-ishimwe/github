@@ -1,0 +1,37 @@
+*{
+    font-size: 19px;
+    background-color: rgb(4, 121, 115);
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#profile{
+    height: 200px;
+    width: 140px;
+    position: initial;
+}
+fieldset{
+    width: 900px;
+    height: 1040px;
+}
+/* .profile{
+    position: relative;
+    top: -200px;
+    left: 100px;
+} */
+table tr th td{
+    border: 1px solid rgb(248, 242, 242);
+    border-collapse: collapse;
+}
+table{
+    position: relative;
+    top: -200px;
+}
+.btn{
+    color: rgb(235, 234, 241);
+    background-color: rgb(156, 157, 158);
+    border-radius: 70px;
+}
+.lee{
+    text-decoration: none;
+    background-color: transparent;
+} 

@@ -1,0 +1,37 @@
+*{
+    /* background-color: rgb(28 44 32); */
+    background: linear-gradient(45deg, #161604, #14ff04);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.title{
+    color: rgb(179 207 255);
+}
+.img{
+    border-radius: 7px;
+    width: 238px;
+    height: 271px;
+    border: 20px;
+}
+.words{
+    color: rgb(0, 255, 200);
+    margin-left: 270px;
+    margin-top: -200px;
+    background: transparent;
+}
+.btn{
+    background: royalblue;
+    margin-left: 270px;
+    margin-top: 20px;
+    height: 25px;
+    width: 80px;
+    border-radius: 7px;
+}
+.link{
+    background: transparent;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+h2{
+    background: transparent;
+}

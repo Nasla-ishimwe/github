@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to left to right rgb(51, 241, 3) rgb(136, 255, 1)rgb(1, 1, 255));
+    border-radius: 23px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.box{
+    position: relative;
+    width: 400px;
+    height: 650px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: transparent;
+    background: transparent;
+}
+/* .box::before{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width : 400px;
+    height: 470px;
+    background: linear-gradient(0deg,transparent,aqua,rgb(109, 4, 247));
+    transform-origin: bottom right;
+    animation: animate 2s linear infinite;
+   
+}
+.box::after{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 400px;
+    height: 470px;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+    animation-delay: -0.1s;
+    background: linear-gradient(0deg,transparent,aqua,rgb(26, 2, 245));
+}
+.box:hover{
+    transition: .5s;
+    background: linear-gradient(0deg,transparent,rgb(107, 206, 206),rgb(61, 55, 116));
+    cursor: pointer;
+}
+@keyframes animate{
+0%{
+    transform: rotate(0deg);
+}
+100%{
+    transform: rotate(360deg);
+} */
+
+.form{
+    position: absolute;
+    inset: 2px;
+    background: #f3cdf5;
+    z-index: 10;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: fixed;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 39px;
+    width: 370px;
+    height: 410px;
+    background: transparent;
+}
+.form h2{
+    color: rgb(50, 255, 9);
+    text-align: center;
+    letter-spacing: 0.1em;
+    margin-bottom: 20px;
+    margin-left: 35%;
+}
+span{
+    color: #0a0008;
+    font-family: Arial;
+}
+.input{
+    position: relative;
+    width: 300px;
+    margin-top: 35px;
+    padding-left: 20px;
+    padding-right: 90px;
+    border-radius: 20px;
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: fixed; */
+}
+.input input{
+    position: relative;
+    width: 130%;
+    padding: 20px 10px 10px;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #45f3ff;
+    outline: none;
+    color: #000000;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+    transition: 0.19;
+}
+/* .input input:hover{
+    position: relative;
+    width: 130%;
+    height: 15%;
+    background: #020000;
+    border: none;
+    color: #1d1e22;
+    letter-spacing: 0.05em;
+    border-radius: 4px;
+    font-size: 17px;
+    padding: 10px;
+} */
+.links{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+    color: #45f3ff;
+    font-size: 17px;
+}
+span{
+    color: #7e8787;
+}
+input[type="submit"]{
+    border: none;
+    outline: none;
+    background: #45f3ff;
+    padding: 11px 25px;
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 40px;
+    padding-right: 20px;
+    outline: none;
+}
+#login{
+    margin-left: 35%;
+    border-radius: 10px;
+    color: #0c0c0c;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
+input[type="submit"]:hover{
+    border: none;
+    outline: none;
+    background: #86bbec;
+    padding: 11px 25px;
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 40px;
+    padding-right: 20px;
+}
+button{
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    background:linear-gradient(to left,rgb(145, 187, 235),rgb(100, 4, 255));
+    width: 100px;
+    height: 56px;
+}
+button:hover{
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    background: #03f32b;
+    transform: scale(1.1);
+    color: #000000;
+}
+button a{
+    color: #050505;
+}
+#logo{
+    position: relative;
+    top: 0;
+    left: 0;
+}

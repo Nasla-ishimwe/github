@@ -1,0 +1,102 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+body{
+    background:linear-gradient(to left rgb(12, 10, 10),rgb(8, 7, 7));
+    background-image: url(24.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+fieldset{
+    width:750px;
+    height: 100 0px;
+    background:black ;
+    border-radius: 49px;
+    transition: all;
+    background: #aaaaaa7a;
+   
+}
+span{
+    color: rgb(199, 241, 7);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 14px;
+}
+ul{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+   
+}
+ul:hover{
+    color: rgb(0, 0, 0);   
+}
+ul::after{
+           color: aqua;  
+}
+H1{
+    color: rgb(28, 13, 247);
+    width:34px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: rgb(252, 252, 252);
+    background: transparent;
+   
+    
+
+}
+textarea{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: rgb(10, 10, 10);
+    background: linear-gradient(to right rgb(44, 1, 1) rgb(219, 210, 210));
+
+}
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(2, 92, 40);
+    border-radius: 45px;
+}
+option{
+    background: transparent;
+}
+h5{
+    color: bisque;
+    background: transparent;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+input {
+    border-radius: 34px;
+}
+button{
+    color: rgb(8, 7, 5);
+    width: 65px;
+    height: 34px;
+    border-radius: 33px;
+    background: linear-gradient(to left rgb(33, 22, 138),blue);
+    
+
+
+}
+button:hover{
+    color: black;
+    box-shadow: 2px;
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1);
+    cursor: pointer;
+}
+button a{
+    color: rgb(17, 6, 180);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a{
+    color: black;
+    background: linear-gradient(to right white,blue);
+}
