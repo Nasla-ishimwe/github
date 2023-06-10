@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<title>manzi wesite</title>
+<meta name="keywords" content="example, JavaScript Form Validation, Sample registration form" />
+<meta name="description" content="This document is an example of JavaScript Form Validation using a sample registration form. " />
+<link rel='stylesheet' href='mn.css' >
+</head>
+<body onload="document.registration.userid.focus();">
+    <a href="about.html">Back</a>
+    <center><fieldset><center><h1>Regi<span>📖ster<b><b><b></span><br></h1></center><h2><input type="search"placeholder="search"required></h2>
+
+        <form name='registration' onSubmit="return formValidation();">
+<ul><br>
+<label for="userid"required>User id:</label></li><br>
+<input type="text" name="userid" size="12" /></li><br>
+<label for="passid"required>Password:</label><br>
+<input type="password" name="passid" size="12" /><br>
+<label for="username"required>Name:</label></li><br>
+<input type="text" name="username" size="30" /><br>
+<label for="address"required>Address:</label><br>
+<input type="text" name="address" size="30" /><br>
+<label for="country"required>country:</label><br>
+<select name="country"required>
+<option selected="" value="Default"><h5>(Please select a country)</h5></option>
+<option value="AF">Australia</option><br>
+<option value="AL">Canada</option><br>
+<option value="DZ">India</option><br>
+<option value="AS">Russia</option><br>
+<option value="AD">USA</option><br>
+<option value="AD">Rwanda</option><br>
+<option value="AD">Italy</option><br>
+<option value="AD">Austria</option><br>
+<option value="AD">England</option><br>
+<option value="AD">France</option><br>
+<option value="AD">Pakistan</option><br>
+<option value="AD">Greece</option><br>
+<option value="AD">Germany</option><br>
+<option value="AD">Belgium</option><br>
+<option value="AD">China</option><br>
+<option value="AD">Egypt</option><br>
+<option value="AD">Iran</option><br>
+<option value="AD">Morroco</option><br>
+</select><br><br>
+<label for="zip"required>ZIP Code:</label><br><br>
+<input type="text" name="zip" /><br>
+<label for="email"required>Email:</label><br><br>
+<input type="text" name="email" size="50" /><br><br>
+<label id="gender"required>Sex:</label><br><br>
+<input type="radio" name="msex" value="Male" />Male<br>
+<input type="radio" name="msex" value="Female" />Female<br>
+<label>Language:</label><br>
+<input type="radio" name="en" value="en" checked />English<br>
+<input type="radio" name="en" value="en" checked />Francais<br>
+<input type="radio" name="en" value="noen" />None of the above<br>
+<label for="desc"required>About:</label><br>
+<textarea name="desc" id="desc"required></textarea><br>
+<button><a href="form.html">submit </a></button>
+</ul>
+</form>
+    </fieldset>
+</center>
+</body>
+</html>
+
